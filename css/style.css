@@ -1,0 +1,589 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial, sans-serif';
+
+}
+
+span{color: rgb(173, 192, 65);}
+
+.bienvenido{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.bienvenido  h2{
+    font-size: 40px;
+}
+.bienvenido  h3{
+    margin-top: 20px;
+    font-size: x-large;
+}
+
+
+.carrusel{
+    width: 50%;
+    margin: 3% auto 10% auto;
+}
+
+
+.carousel-inner img {
+    width: 1000px; 
+    height: 500px;  
+}
+
+
+
+/*servicios*/
+.servicios {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 70vh;
+}
+
+.servicios div {
+    background-color: #afabab;
+    width: 30%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 2s;
+}
+.servicios div:hover {transform: rotateZ(2deg);
+}
+
+.servicios div img {
+    width: 20%;
+}
+
+.servicios div h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.servicios div p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+/*contacto*/
+
+.preguntas{text-align: center;
+    margin: 3% auto;
+    width: 50%;
+}
+.accordion-body{ background-color: #dacece;
+}
+
+.comunicarse p{text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 3% auto;
+    width: 50%;
+}
+.formulario {
+    width: 30%;
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5% auto;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+
+
+/*ofertas*/
+.ofertas {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.ofertas div {background-color: #afabab;
+    border-radius: 20px;
+    width: 35%;
+    padding: 30px;
+    margin: 3% auto;
+    /*transition:2s;*/
+}
+/*.ofertas div:hover{transform: rotateZ(5deg);
+}*/
+.ofertas div h2{font-size: 30px;
+    font-weight:bold ;
+}
+.ofertas div p{font-size: 20px;}
+
+/*calzado*/ 
+.calzadonike{
+display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.calzadopuma{
+    display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+.namesection{text-align: center;
+    background-color: #bdb5b5;
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 5%;
+
+}
+
+
+
+.nike{
+      width: 300px;  
+      height: 300px;
+     background-color: #bebebe;
+     box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
+}
+
+.calzadonike div h3{
+font-size: 20px;
+font-weight: bolder;
+text-decoration: underline;
+text-transform:uppercase ;
+margin: 5% auto 10% auto;
+}
+.calzadonike div h4{
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 3% auto 10% auto;
+    }
+.calzadonike div{
+    width: 350px;
+    height: 100%;
+    border: 2px solid black;
+    margin: 5%;
+    text-align: center;
+    padding: 20px;
+    background-color: #afabab;
+    transition:1s;
+   
+ }
+ .calzadonike div:hover{transform:scale(1.06);
+    box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
+ }
+ 
+ .puma{
+    width:100%;
+    height: 220px;
+    background-color: #bebebe;
+    box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
+ -webkit-box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
+ -moz-box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
+ }
+    .calzadopuma div h3{
+font-size: 20px;
+font-weight: bolder;
+text-decoration: underline;
+text-transform:uppercase ;
+margin: 7% auto 10% auto;
+}
+.calzadopuma div h4{
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 0 auto 10% auto;
+    }
+.calzadopuma div{
+    width: 400px;
+    height: 100%;
+    border: 2px solid black;
+    margin: 5%;
+    text-align: center;
+    padding: 20px;
+    background-color: #afabab;
+    transition: 1s;
+    }
+    .calzadopuma div:hover{
+        transform:scale(1.03);
+    box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);}
+
+    .botoncomprarnike {
+        background: black;
+        color: white;
+        text-decoration: none;
+        border-radius: 7px;
+        padding: 7px;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    .botoncomprarpuma{
+        background: black;
+        color: white;
+        text-decoration: none;
+        border-radius: 7px;
+        padding: 7px;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+.grid-container{
+    margin:5% 0;
+    width: 100%;
+    border: solid 4px black;
+    display: grid;
+    grid-auto-rows: 1fr 1fr 1fr;
+   grid-template-columns: repeat(4,1fr);
+   gap: 20px;
+}
+.grid-container div img{
+    width: 70%;
+    height: 100%;    
+}
+.grid-items{
+    border: solid 2px black;
+    padding: 20px;
+    text-align: center;
+    margin: 5px;
+    transition: 2s;
+}
+.grid-items:hover{
+    transform:scale(1.09);
+    box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
+}
+
+
+
+
+/*footer*/
+footer {
+    background-color: #726e6e;
+    color: #fff;
+    text-align: center;
+
+}
+
+.pie{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 3%;
+
+}
+
+
+.footerP{
+font-size: 20px;
+}
+
+
+@media screen and (max-width: 850px) {
+
+        .botoncomprarnike {
+            font-size: 14px;
+        }
+}
+@media screen and (max-width: 1000px) {
+    .pie {
+        width: 5%; 
+    }
+
+    .footerP {
+        font-size: 20px;
+    }
+    .calzadonike div{
+        width: 300px;
+        height: 500px;
+}
+.nike{
+    width: 250px;  
+    height: 300px;
+}
+.calzadonike div h3{
+    font-size: 15px;
+    }
+    .puma{
+        width:90%;
+     }
+        .calzadopuma div h3{
+    font-size: 15px;
+    margin: 5% auto 7% auto;
+    }
+    .calzadopuma div{
+        width: 300px;
+     }
+     .botoncomprarpuma{
+        font-size: 14px;
+    }
+
+    .ofertas div h2{font-size: 25px;
+    }
+    .ofertas div p{font-size: 17px;}
+    .servicios div {padding: 30px;}
+
+    .carrusel{
+        width: 70%;
+    }    
+    .comunicarse p{
+        font-size: 20px;
+        width: 60%;
+    }
+    .formulario {
+        width: 40%;
+    }
+    input[type="submit"],
+    input[type="reset"] {
+        padding: 7px 13px;
+    }
+    .preguntas{
+        width: 60%;
+    }
+    
+}
+
+@media screen and (max-width: 991px) {
+    .namesection{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .pie {
+        width: 6%; 
+    }
+
+    .footerP {
+        font-size: 15px;
+
+    }
+    .bienvenido{
+        margin-bottom: 30px;
+    }
+    .calzadopuma div h3{
+        font-size: 17px;
+        }
+        .calzadopuma div h4{
+            margin: 0 auto 6% auto;
+            }
+         .botoncomprarpuma{
+            padding: 5px;
+            font-size: 12px;
+        }
+    }
+        @media screen and (max-width: 700px) {
+            .ofertas {
+                flex-direction: column;
+            }
+            .ofertas div {
+                border-radius: 17px;
+                width: 80%;
+                padding: 25px;
+                margin: 2% auto;
+            }
+            .comunicarse p{
+                font-size: 18px;
+                width: 70%;
+            }
+        }
+
+
+@media screen and (max-width: 450px) {
+    .pie {
+        width: 8%; 
+    }
+
+    .calzadonike div{
+        width: 250px;
+        height: 400px;
+}
+.nike{
+    width: 200px;  
+    height: 250px;
+}
+}
+
+
+@media screen and (max-width: 350px) {
+    .pie {
+        width: 10%; 
+    } 
+    .puma{
+        width:100%;
+        height: 200px;
+     }
+     .grid-container div img{
+        width: 100%;
+        height: 100%; 
+}
+}
+@media screen and (max-width: 290px) {
+    .servicios div h2 {font-size: 18px;}
+    .servicios div p {font-size: 15px;}
+}
+@media screen and (max-width: 985px) {
+
+    
+    .bienvenido  h2{
+        font-size: 30px;
+    }
+    .bienvenido  h3{
+        margin-top: 15px;
+        font-size: 17px;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .grid-container{
+        grid-auto-rows: auto;
+       grid-template-columns: repeat(3,1fr);
+    }
+}
+@media screen and (max-width: 800px) {
+    .grid-container{
+        grid-auto-rows: auto;
+       grid-template-columns: 1fr 1fr;
+    }
+    .ofertas div h2{font-size: 22px;
+    }
+    .ofertas div p{font-size: 15px;}
+    .preguntas{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 470px) {
+    .grid-container{
+        grid-auto-rows: auto;
+       grid-template-columns: 1fr;
+    }
+    .grid-container div img{
+        width: 50%;
+        height: 100%; 
+}
+}
+@media screen and (max-width: 1150px) {
+    .servicios {
+        flex-direction: column;
+        height: 100%;
+    }
+    
+    .servicios div {
+        width: 40%;
+        margin-top: 5%;
+    }
+    
+    .servicios div img {
+        width: 25%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .servicios div img {
+        width: 35%;
+    }
+    .formulario {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 740px) {
+    .servicios div {
+        width: 50%;
+        margin-top: 3%;
+    }
+}
+@media screen and (max-width: 615px) {
+    .servicios div {padding: 20px;}
+    .ofertas div h2{font-size: 25px;}
+    .ofertas div p{font-size: 15px;}
+}
+@media screen and (max-width: 550px) {
+    .servicios div {width: 70%;}
+    .comunicarse p{
+        font-size: 15px;
+        width: 80%;
+    }
+}
+@media screen and (max-width: 750px) {
+    .carrusel{
+        width: 70%;
+        margin: 5% auto 7% auto;
+    }
+    .carousel-inner img {
+        width: 800px; 
+        height: 400px;  
+    }
+    
+}
+@media screen and (max-width:500px) {
+    .carrusel{
+        width: 80%;
+        margin: 5% auto 10% auto;
+    }
+    .carousel-inner img {
+        width: 600px; 
+        height: 300px;  
+    }
+    .formulario {
+        width: 90%;
+    }
+    .preguntas{
+        width: 85%;
+    }
+}
+@media screen and (max-width:340px) {
+    .carrusel{
+        width: 100%;
+    }
+    .carousel-inner img {
+        width: 500px; 
+        height: 250px;  
+    }
+    .preguntas{
+        width: 92%;
+    }
+}
+
+
+
+
+

@@ -76,7 +76,7 @@ section .carrusel {
       text-decoration: underline;
       text-transform: uppercase;
       margin: 5% auto 10% auto; }
-    .partenike .calzadonike div h4 {
+    .partenike .calzadonike div p {
       font-size: 15px;
       font-weight: bolder;
       margin: 3% auto 10% auto; }
@@ -144,7 +144,7 @@ section .carrusel {
       text-decoration: underline;
       text-transform: uppercase;
       margin: 7% auto 10% auto; }
-    .partepuma .calzadopuma div h4 {
+    .partepuma .calzadopuma div p {
       font-size: 15px;
       font-weight: bolder;
       margin: 0 auto 10% auto; }

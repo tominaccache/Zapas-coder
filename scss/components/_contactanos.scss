@@ -1,0 +1,46 @@
+.comunicarse{
+    p{text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        margin: 3% auto;
+        width: 50%;}
+}
+
+.formulario{
+    width: 30%;
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5% auto;
+    form{
+        .campo{
+            margin-bottom: 20px;
+            label{font-weight: bold;}
+            input[type="text"], input[type="email"], textarea{
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+        }
+        div{
+            input[type="submit"],
+            input[type="reset"]{
+                background-color: #007BFF;
+                color: white;
+                padding: 15px 20px;
+                border-radius: 5px;
+            }
+        }
+
+    }
+}
+
+.preguntas{
+    text-align: center;
+    margin: 3% auto;
+    width: 50%;
+    .accordion-body{background-color: #dacece;}
+}
+

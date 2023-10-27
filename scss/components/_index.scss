@@ -1,0 +1,22 @@
+section{
+    .bienvenido{
+        margin-top: 30px;
+        text-align: center;
+        h2{font-size: 40px;}
+        h3{
+            margin-top: 20px;
+            font-size: x-large;
+        }
+    }
+    .carrusel{
+        width: 50%;
+    margin: 3% auto 10% auto;
+        .carousel-inner img{
+            width: 1000px; 
+            height: 500px; 
+        }
+    }
+}
+
+
+

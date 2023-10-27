@@ -1,0 +1,24 @@
+.servicios{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 70vh;
+    div{
+        background-color: #afabab;
+        width: 30%;
+        margin: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        transition: 2s;
+        &:hover{transform: rotateZ(2deg)}
+        h2{    font-size: 30px;
+            margin-bottom: 20px;}
+        img{ width: 20%;}
+        p{    margin-top: 20px;
+            font-size: 20px;}
+    }
+}
+
+

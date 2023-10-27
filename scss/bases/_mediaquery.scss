@@ -1,0 +1,263 @@
+@media screen and (max-width: 850px) {
+
+    .botoncomprarnike {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 1000px) {
+.pie {
+    width: 5%; 
+}
+
+.footerP {
+    font-size: 20px;
+}
+.calzadonike div{
+    width: 300px;
+    height: 500px;
+}
+.nike{
+width: 250px;  
+height: 300px;
+}
+.calzadonike div h3{
+font-size: 15px;
+}
+.puma{
+    width:90%;
+ }
+    .calzadopuma div h3{
+font-size: 15px;
+margin: 5% auto 7% auto;
+}
+.calzadopuma div{
+    width: 300px;
+ }
+ .botoncomprarpuma{
+    font-size: 14px;
+}
+
+.ofertas div h2{font-size: 25px;
+}
+.ofertas div p{font-size: 17px;}
+.servicios div {padding: 30px;}
+
+.carrusel{
+    width: 70%;
+}    
+.comunicarse p{
+    font-size: 20px;
+    width: 60%;
+}
+.formulario {
+    width: 40%;
+}
+input[type="submit"],
+input[type="reset"] {
+    padding: 7px 13px;
+}
+.preguntas{
+    width: 60%;
+}
+
+}
+
+@media screen and (max-width: 991px) {
+.namesection{
+    font-size: 30px;
+}
+}
+
+@media screen and (max-width: 650px) {
+.pie {
+    width: 6%; 
+}
+
+.footerP {
+    font-size: 15px;
+
+}
+.bienvenido{
+    margin-bottom: 30px;
+}
+.calzadopuma div h3{
+    font-size: 17px;
+    }
+    .calzadopuma div h4{
+        margin: 0 auto 6% auto;
+        }
+     .botoncomprarpuma{
+        padding: 5px;
+        font-size: 12px;
+    }
+}
+    @media screen and (max-width: 700px) {
+        .ofertas {
+            flex-direction: column;
+        }
+        .ofertas div {
+            border-radius: 17px;
+            width: 80%;
+            padding: 25px;
+            margin: 2% auto;
+        }
+        .comunicarse p{
+            font-size: 18px;
+            width: 70%;
+        }
+    }
+
+
+@media screen and (max-width: 450px) {
+.pie {
+    width: 8%; 
+}
+
+.calzadonike div{
+    width: 250px;
+    height: 400px;
+}
+.nike{
+width: 200px;  
+height: 250px;
+}
+}
+
+
+@media screen and (max-width: 350px) {
+.pie {
+    width: 10%; 
+} 
+.puma{
+    width:100%;
+    height: 200px;
+ }
+ .grid-container div img{
+    width: 100%;
+    height: 100%; 
+}
+}
+@media screen and (max-width: 290px) {
+.servicios div h2 {font-size: 18px;}
+.servicios div p {font-size: 15px;}
+}
+@media screen and (max-width: 985px) {
+
+
+.bienvenido  h2{
+    font-size: 30px;
+}
+.bienvenido  h3{
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: bold;
+}
+}
+@media screen and (max-width: 1100px) {
+.grid-container{
+    grid-auto-rows: auto;
+   grid-template-columns: repeat(3,1fr);
+}
+}
+@media screen and (max-width: 800px) {
+.grid-container{
+    grid-auto-rows: auto;
+   grid-template-columns: 1fr 1fr;
+}
+.ofertas div h2{font-size: 22px;
+}
+.ofertas div p{font-size: 15px;}
+.preguntas{
+    width: 70%;
+}
+}
+@media screen and (max-width: 470px) {
+.grid-container{
+    grid-auto-rows: auto;
+   grid-template-columns: 1fr;
+}
+.grid-container div img{
+    width: 50%;
+    height: 100%; 
+}
+}
+@media screen and (max-width: 1150px) {
+.servicios {
+    flex-direction: column;
+    height: 100%;
+}
+
+.servicios div {
+    width: 40%;
+    margin-top: 5%;
+}
+
+.servicios div img {
+    width: 25%;
+}
+}
+@media screen and (max-width: 900px) {
+.servicios div img {
+    width: 35%;
+}
+.formulario {
+    width: 60%;
+}
+}
+@media screen and (max-width: 740px) {
+.servicios div {
+    width: 50%;
+    margin-top: 3%;
+}
+}
+@media screen and (max-width: 615px) {
+.servicios div {padding: 20px;}
+.ofertas div h2{font-size: 25px;}
+.ofertas div p{font-size: 15px;}
+}
+@media screen and (max-width: 550px) {
+.servicios div {width: 70%;}
+.comunicarse p{
+    font-size: 15px;
+    width: 80%;
+}
+}
+@media screen and (max-width: 750px) {
+.carrusel{
+    width: 70%;
+    margin: 5% auto 7% auto;
+}
+.carousel-inner img {
+    width: 800px; 
+    height: 400px;  
+}
+
+}
+@media screen and (max-width:500px) {
+.carrusel{
+    width: 80%;
+    margin: 5% auto 10% auto;
+}
+.carousel-inner img {
+    width: 600px; 
+    height: 300px;  
+}
+.formulario {
+    width: 90%;
+}
+.preguntas{
+    width: 85%;
+}
+}
+@media screen and (max-width:340px) {
+.carrusel{
+    width: 100%;
+}
+.carousel-inner img {
+    width: 500px; 
+    height: 250px;  
+}
+.preguntas{
+    width: 92%;
+}
+}

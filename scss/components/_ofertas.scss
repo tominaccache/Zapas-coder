@@ -1,0 +1,21 @@
+section{
+    .ofertas{
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        div{
+            background-color: #afabab;
+    border-radius: 20px;
+    width: 35%;
+    padding: 30px;
+    margin: 3% auto;
+            h2{font-size: 30px;
+                font-weight:bold}
+            p{font-size: 20px;}
+        }
+    }
+}
+
+

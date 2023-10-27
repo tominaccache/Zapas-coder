@@ -1,0 +1,124 @@
+.partenike{
+    .calzadonike{
+        display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+        div{
+            width: 350px;
+            height: 100%;
+            border: 2px solid black;
+            margin: 5%;
+            text-align: center;
+            padding: 20px;
+            background-color: #afabab;
+            transition:1s;
+            &:hover{
+                transform:scale(1.06);
+    box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
+            }
+            .nike{
+                width: 300px;  
+      height: 300px;
+     background-color: #bebebe;
+     box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
+            }
+            h3{
+                font-size: 20px;
+font-weight: bolder;
+text-decoration: underline;
+text-transform:uppercase ;
+margin: 5% auto 10% auto;
+            }
+            h4{
+                font-size: 15px;
+                font-weight: bolder;
+                margin: 3% auto 10% auto;
+            }
+            .botoncomprarnike{
+                background: black;
+                color: white;
+                text-decoration: none;
+                border-radius: 7px;
+                padding: 7px;
+                font-size: 18px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.parteadidas{
+    .grid-container{
+        margin:5% 0;
+        width: 100%;
+        border: solid 4px black;
+        display: grid;
+        grid-auto-rows: 1fr 1fr 1fr;
+       grid-template-columns: repeat(4,1fr);
+       gap: 20px;
+        .grid-items{
+            border: solid 2px black;
+            padding: 20px;
+            text-align: center;
+            margin: 5px;
+            transition: 2s;
+            &:hover{    transform:scale(1.09);
+                box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
+                -webkit-box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
+                -moz-box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);}
+            img{    width: 70%;
+                height: 100%; }
+        }
+    }
+}
+
+.partepuma{
+    .calzadopuma{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        div{
+            width: 400px;
+            height: 100%;
+            border: 2px solid black;
+            margin: 5%;
+            text-align: center;
+            padding: 20px;
+            background-color: #afabab;
+            transition: 1s;
+            &:hover{        transform:scale(1.03);
+                box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
+                -webkit-box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
+                -moz-box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);}
+            .puma{
+                width:100%;
+                height: 220px;
+                background-color: #bebebe;
+                box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
+             -webkit-box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
+             -moz-box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
+            }
+            h3{font-size: 20px;
+                font-weight: bolder;
+                text-decoration: underline;
+                text-transform:uppercase ;
+                margin: 7% auto 10% auto;}
+            h4{    font-size: 15px;
+                font-weight: bolder;
+                margin: 0 auto 10% auto;}
+            .botoncomprarpuma{        background: black;
+                color: white;
+                text-decoration: none;
+                border-radius: 7px;
+                padding: 7px;
+                font-size: 18px;
+                text-transform: uppercase;}
+        }
+    }
+}

@@ -1,3 +1,22 @@
+.partenike .calzadonike div h3, .partepuma .calzadopuma div h3 {
+  font-size: 20px;
+  font-weight: bolder;
+  text-decoration: underline;
+  text-transform: uppercase; }
+
+.partenike .calzadonike div p, .partepuma .calzadopuma div p {
+  font-size: 15px;
+  font-weight: bolder; }
+
+.partenike .calzadonike div .botoncomprarnike, .partepuma .calzadopuma div .botoncomprarpuma {
+  background: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 7px;
+  padding: 7px;
+  font-size: 18px;
+  text-transform: uppercase; }
+
 * {
   margin: 0;
   padding: 0;
@@ -71,23 +90,9 @@ section .carrusel {
       -webkit-box-shadow: 10px 10px 44px -19px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: 10px 10px 44px -19px rgba(0, 0, 0, 0.75); }
     .partenike .calzadonike div h3 {
-      font-size: 20px;
-      font-weight: bolder;
-      text-decoration: underline;
-      text-transform: uppercase;
       margin: 5% auto 10% auto; }
     .partenike .calzadonike div p {
-      font-size: 15px;
-      font-weight: bolder;
       margin: 3% auto 10% auto; }
-    .partenike .calzadonike div .botoncomprarnike {
-      background: black;
-      color: white;
-      text-decoration: none;
-      border-radius: 7px;
-      padding: 7px;
-      font-size: 18px;
-      text-transform: uppercase; }
 
 .parteadidas .grid-container {
   margin: 5% 0;
@@ -139,23 +144,9 @@ section .carrusel {
       -webkit-box-shadow: 10px 10px 44px -19px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: 10px 10px 44px -19px rgba(0, 0, 0, 0.75); }
     .partepuma .calzadopuma div h3 {
-      font-size: 20px;
-      font-weight: bolder;
-      text-decoration: underline;
-      text-transform: uppercase;
       margin: 7% auto 10% auto; }
     .partepuma .calzadopuma div p {
-      font-size: 15px;
-      font-weight: bolder;
       margin: 0 auto 10% auto; }
-    .partepuma .calzadopuma div .botoncomprarpuma {
-      background: black;
-      color: white;
-      text-decoration: none;
-      border-radius: 7px;
-      padding: 7px;
-      font-size: 18px;
-      text-transform: uppercase; }
 
 .comunicarse p {
   text-align: center;

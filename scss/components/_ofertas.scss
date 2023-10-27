@@ -6,7 +6,7 @@ section{
         flex-wrap: wrap;
         justify-content: space-evenly;
         div{
-            background-color: #afabab;
+            background-color: nth($colores,2);
     border-radius: 20px;
     width: 35%;
     padding: 30px;
@@ -17,5 +17,3 @@ section{
         }
     }
 }
-
-

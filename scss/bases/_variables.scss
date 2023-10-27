@@ -1,4 +1,48 @@
-$color-shoes:rgb(173, 192, 65);
 $color-namesection:#bdb5b5;
 $color-footerbg: #726e6e;
 $color-footerletra:#fff;
+
+$colores:rgb(173, 192, 65),#afabab,#f2f2f2, #007BFF,#bebebe,black ;
+
+
+%h3calzado{
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-transform:uppercase ;
+
+}
+%pcalzado{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+%botoncomprar{
+    background: nth($colores,6);
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 7px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+@mixin calzado($flex,$direction,$wrap,$justify){
+    display:$flex;
+    flex-direction:$direction;
+    flex-wrap: $wrap;
+    justify-content:$justify ;
+}
+
+
+@mixin divpumanike($width,$height,$border,$margin,$text-align,$padding,$bgcolor,$transition){
+    width: $width;
+    height: $height;
+    border: $border;
+    margin: $margin;
+    text-align: $text-align;
+    padding: $padding;
+    background-color:$bgcolor;
+    transition:$transition;
+}
+

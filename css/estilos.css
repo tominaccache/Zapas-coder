@@ -47,19 +47,19 @@ footer {
   footer .footerP {
     font-size: 20px; }
 
-section .bienvenido {
+.bienvenido {
   margin-top: 30px;
   text-align: center; }
-  section .bienvenido h2 {
+  .bienvenido h2 {
     font-size: 40px; }
-  section .bienvenido h3 {
+  .bienvenido h3 {
     margin-top: 20px;
     font-size: x-large; }
 
-section .carrusel {
+.carrusel {
   width: 50%;
   margin: 3% auto 10% auto; }
-  section .carrusel .carousel-inner img {
+  .carrusel .carousel-inner img {
     width: 1000px;
     height: 500px; }
 
@@ -210,22 +210,22 @@ section .carrusel {
       margin-top: 20px;
       font-size: 20px; }
 
-section .ofertas {
+.ofertas {
   text-align: center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly; }
-  section .ofertas div {
+  .ofertas div {
     background-color: #afabab;
     border-radius: 20px;
     width: 35%;
     padding: 30px;
     margin: 3% auto; }
-    section .ofertas div h2 {
+    .ofertas div h2 {
       font-size: 30px;
       font-weight: bold; }
-    section .ofertas div p {
+    .ofertas div p {
       font-size: 20px; }
 
 @media screen and (max-width: 850px) {
@@ -286,7 +286,7 @@ section .ofertas {
     margin-bottom: 30px; }
   .calzadopuma div h3 {
     font-size: 17px; }
-  .calzadopuma div h4 {
+  .calzadopuma div p {
     margin: 0 auto 6% auto; }
   .botoncomprarpuma {
     padding: 5px;
